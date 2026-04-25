@@ -1,0 +1,37 @@
+# Flutter/Dart
+build/
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+
+# Flutter generated files
+flutter_export_environment.sh
+
+# Keystore (important)
+*.jks
+*.keystore
+key.properties
