@@ -1,5 +1,9 @@
-# budget-app
+# BudgetFlow
+
 A Flutter-based budgeting app for real-time money control. Track income, manage fixed expenses, allocate budgets, and update spending instantly. Offline-first, simple, and designed to help users make smarter financial decisions daily.
+
+---
+
 ## 🚀 Overview
 
 Most budgeting apps focus on tracking history.
@@ -63,13 +67,13 @@ Everything updates live, so users always know exactly where they stand.
 
 BudgetFlow solves a real problem:
 
-> People don’t just need to track money — they need to **control it in real time**.
+> People don't just need to track money — they need to **control it in real time**.
 
 Instead of asking:
-> “Where did my money go?”
+> "Where did my money go?"
 
 Users can now ask:
-> “If I spend this now, what happens next?”
+> "If I spend this now, what happens next?"
 
 ---
 
@@ -85,12 +89,38 @@ Users can now ask:
 
 ## 📱 Screenshots
 
-- Dashboard  
-- Category Detail  
-- Onboarding  
-- Transaction History  
-- Savings Goals  
-- Settings  
+### Dashboard
+<p float="left">
+  <img src="screenshots/dashboard1.jpeg" width="250" alt="Dashboard 1" />
+  <img src="screenshots/dashboard2.jpeg" width="250" alt="Dashboard 2" />
+</p>
+
+### Income
+<img src="screenshots/income.jpeg" width="250" alt="Income Management" />
+
+### Fixed Expenses
+<img src="screenshots/fixed-expenses.jpeg" width="250" alt="Fixed Expenses" />
+
+### Budget Allocation
+<img src="screenshots/budget-allocation.jpeg" width="250" alt="Budget Allocation" />
+
+### Categories Overview
+<img src="screenshots/categories-overview.jpeg" width="250" alt="Categories Overview" />
+
+### Spending
+<img src="screenshots/spending.jpeg" width="250" alt="Spending" />
+
+### Adding Funds
+<img src="screenshots/adding-funds.jpeg" width="250" alt="Adding Funds" />
+
+### Transaction History
+<img src="screenshots/transaction-histrory.jpeg" width="250" alt="Transaction History" />
+
+### Savings Goals
+<img src="screenshots/goals.jpeg" width="250" alt="Savings Goals" />
+
+### Settings
+<img src="screenshots/settings.jpeg" width="250" alt="Settings" />
 
 ---
 
@@ -104,53 +134,65 @@ Users can now ask:
 
 ```bash
 git clone https://github.com/pulemojatau/budget-app.git
-cd budgetflow
+cd budget-app
 flutter pub get
 flutter run
+```
 
-📦 Build APK / AAB
+### 📦 Build APK / AAB
+
+```bash
 flutter build apk
 # or
 flutter build appbundle
+```
 
-🔐 Privacy
-No user data is collected
-No tracking or analytics
-No internet connection required
-All data is stored locally on the device
+---
 
-🧪 Current Status
-✅ Fully functional MVP
-✅ Offline-first
-✅ Production-ready UI
-🔄 Currently testing & refining based on real usage
+## 🔐 Privacy
 
+- No user data is collected
+- No tracking or analytics
+- No internet connection required
+- All data is stored locally on the device
 
-Future Improvements
-Quick-add spending from dashboard
-Monthly summary insights
-Budget carry-over between months
-Data backup & restore
-Export reports
+---
 
+## 🧪 Current Status
 
-💼 Portfolio Context
+- ✅ Fully functional MVP
+- ✅ Offline-first
+- ✅ Production-ready UI
+- 🔄 Currently testing & refining based on real usage
+
+---
+
+## 🔮 Future Improvements
+
+- Quick-add spending from dashboard
+- Monthly summary insights
+- Budget carry-over between months
+- Data backup & restore
+- Export reports
+
+---
+
+## 💼 Portfolio Context
 
 This project was built as part of my journey to move from learning development to building real, usable products.
 
 It focuses on:
 
-Clean architecture
-Real-world problem solving
-User-centered design
-Practical functionality over complexity
+- Clean architecture
+- Real-world problem solving
+- User-centered design
+- Practical functionality over complexity
 
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Motlalepula Mojatau
-Software Developer
+**Motlalepula Mojatau** — Software Developer
 
-GitHub: https://github.com/pulemojatau
-Portfolio: [Click here to visit my website](https://motlalepula-mojatau-portfolio-website.vercel.app)
-
+- GitHub: [pulemojatau](https://github.com/pulemojatau)
+- Portfolio: [website](https://motlalepula-mojatau-portfolio-website.vercel.app)
